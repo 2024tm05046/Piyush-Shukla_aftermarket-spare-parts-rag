@@ -17,7 +17,12 @@ shutil.copy(
     "sample_documents/Research_on_Optimization_Strategy_of_Aftermarket_S.pdf"
 )
 
-!pip install pypdf langchain faiss-cpu
+!pip install pypdf langchain faiss-cpu langchain_community
+
+!pip install langchain
+
+import os
+os.makedirs("src/ingestion", exist_ok=True)
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile src/ingestion/pdf_parser.py
@@ -152,16 +157,26 @@ os.makedirs("src/retrieval", exist_ok=True)
 # 
 #     return vector_store
 
-screenshots/
-
 import os
+
 os.makedirs("screenshots", exist_ok=True)
-print("Created 'screenshots/' directory.")
-
-import os
-print(os.listdir("screenshots"))
+print("screenshots folder created ✅")
 
 !zip -r final_rag_project.zip main.py src sample_documents screenshots requirements.txt README.md
+
+from fastapi import APIRouter
+import time
+
+router = APIRouter()
+start_time = time.time()
+
+@router.get("/health")
+def health():
+    return {
+        "status": "ok",
+        "indexed_documents": 1,
+        "uptime_seconds": int(time.time() - start_time)
+    }
 
 """Aftermarket Spare Parts Multimodal RAG System
 
