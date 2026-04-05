@@ -1,5 +1,4 @@
-aftermarket-spare-parts-rag                                                                                                   
-**Aftermarket Spare Parts Multimodal RAG System**                                                                             
+                                                                                                               **Aftermarket Spare Parts Multimodal RAG System**                                                                             
 **Problem Statement**                                                                                                         
 **Domain Identification**                                                                                                     
 This project is situated in the domain of automotive aftermarket spare parts supply chain management, with a specific focus on inventory optimization for large-scale commercial vehicle enterprises. In this domain, organizations manage tens of thousands of spare part SKUs across multi‑tier distribution networks consisting of central distribution centers, regional warehouses, and service stations. Effective spare parts inventory management plays a critical role in customer service levels, asset uptime, and overall enterprise profitability.
