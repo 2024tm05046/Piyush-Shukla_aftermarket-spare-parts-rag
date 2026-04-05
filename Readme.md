@@ -58,22 +58,22 @@ Run the FastAPI server
 Open Swagger UI
 
 **API Documentation**                                                                                                         
-/health
-Returns system status, uptime, and indexed document count.
-/ingest
-Processes the spare parts PDF, extracts multimodal chunks, embeds them, and stores them in the vector index.
-/query
-Accepts a natural‑language question and returns a grounded answer with source references (file name and page number).
+/health                                                                                                                       
+Returns system status, uptime, and indexed document count.                                                                    
+/ingest                                                                                                                       
+Processes the spare parts PDF, extracts multimodal chunks, embeds them, and stores them in the vector index.                  
+/query                                                                                                                        
+Accepts a natural‑language question and returns a grounded answer with source references (file name and page number).         
 
 **Screenshots**                                                                                                               
 Screenshots demonstrating system functionality are provided in the screenshots/ folder:
 
-Swagger UI
-Successful PDF ingestion
-Text‑based query
-Table‑based query
-Image/diagram‑based query
-Health endpoint response
+Swagger UI                                                                                                                    
+Successful PDF ingestion                                                                                                      
+Text‑based query                                                                                                              
+Table‑based query                                                                                                             
+Image/diagram‑based query                                                                                                     
+Health endpoint response                                                                                                     
 
 **Limitations & Future Work**                                                                                                 
 Table extraction is limited to text‑based parsing; future versions may integrate structured table parsers.                    
