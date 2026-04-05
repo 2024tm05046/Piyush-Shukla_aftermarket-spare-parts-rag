@@ -76,9 +76,9 @@ Image/diagram‑based query
 Health endpoint response
 
 **Limitations & Future Work**                                                                                                 
-Table extraction is limited to text‑based parsing; future versions may integrate structured table parsers.
-Image understanding is dependent on the quality of diagram summarization.
-Real‑time inventory data integration is outside the scope of this prototype.
-Future work includes metadata‑based filtering and multi‑document reasoning.
+Table extraction is limited to text‑based parsing; future versions may integrate structured table parsers.                    
+Image understanding is dependent on the quality of diagram summarization.                                                     
+Real‑time inventory data integration is outside the scope of this prototype.                                                  
+Future work includes metadata‑based filtering and multi‑document reasoning.                                                   
 
 
