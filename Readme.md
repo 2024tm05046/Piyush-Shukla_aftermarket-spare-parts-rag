@@ -44,12 +44,12 @@ Image chunks: Diagrams and conceptual figures are summarized into concise textua
 Each chunk is tagged with metadata including source filename, page number, and chunk type (text, table, image_summary).
 
 **Technology Choices**                                                                                                        
-Document Parsing: PyPDF for reliable extraction of academic‑style PDF text.
-Embeddings: HuggingFace all‑MiniLM‑L6‑v2 for lightweight, efficient semantic retrieval.
-Vector Store: FAISS for fast local similarity search.
-LLM: Open‑weight or API‑based language model for answer generation.
-Framework: LangChain for RAG pipeline orchestration.
-API Layer: FastAPI for RESTful endpoints and interactive Swagger documentation.
+Document Parsing: PyPDF for reliable extraction of academic‑style PDF text.                                                   
+Embeddings: HuggingFace all‑MiniLM‑L6‑v2 for lightweight, efficient semantic retrieval.                                       
+Vector Store: FAISS for fast local similarity search.                                                                         
+LLM: Open‑weight or API‑based language model for answer generation.                                                           
+Framework: LangChain for RAG pipeline orchestration.                                                                          
+API Layer: FastAPI for RESTful endpoints and interactive Swagger documentation.                                               
 
 **Setup Instructions**                                                                                                        
 Clone the repository
